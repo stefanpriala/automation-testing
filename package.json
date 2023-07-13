@@ -1,0 +1,19 @@
+{
+  "name": "cytest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.0.0"
+  },
+  
+    "scripts": {
+       "cy:open": "npx cypress open",
+       "cy:test:all": "npx cypress run",
+       "cy:test:spec": "npx cypress run --spec cypress/e2e/tutorialsNinja/homepage.cy.js"
+     }
+
+}
